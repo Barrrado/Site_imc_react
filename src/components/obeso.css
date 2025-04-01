@@ -1,0 +1,72 @@
+.obeso__peso{
+    color: hsl(56, 100%, 50%);
+    border-radius: 100%;
+    background-image: linear-gradient(60deg , 
+     hsl(27, 100%, 52%), 
+     hsl(24, 90%, 61%) );
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    grid-column: 2;
+    cursor: pointer;
+    text-align: center;
+}
+
+.obeso__peso:hover{
+    box-shadow: 5px 5px 10px 10px rgb(255, 178, 77);
+    text-shadow: 10px 10px 20px rgb(219, 179, 0);
+}
+
+
+ .obesopeso__container{
+    display: grid;
+    padding: 10px;
+    margin-top: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    background-color: rgb(240, 186, 161);
+    grid-column: 1 / 3;
+    border-radius: 30px;
+    justify-items: center;
+    height: 270px;
+    gap: 5px;
+ }
+ .p__obesopeso{
+    font-size: 15px;
+    font-family: "Barlow", sans-serif;
+    grid-column: 1;
+    margin-left: 30px;
+    margin-top: 0;
+    margin-right: 30px;
+    margin-bottom: 0;
+  
+ }
+ .grid__obesopeso{
+    display: grid;
+    grid-column: 1;
+ }
+ .li__obesopeso{
+    list-style: auto;
+    padding: 5px;
+    font-family: "Exo 2", sans-serif;
+    margin-left: 40px;
+   font-weight: 600;
+    grid-column: 1;
+    margin-top: 0;
+    padding-top: 0;
+    color: aliceblue;
+ }
+ .h2__obesopeso{
+   font-family: "Exo 2", sans-serif;
+    letter-spacing: 2px;
+    color: rgb(131, 74, 0);
+    display: grid;
+    grid-column: 1 / 3;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+
+ }

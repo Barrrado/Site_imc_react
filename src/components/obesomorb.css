@@ -1,0 +1,72 @@
+.morb__peso{
+    color: hsl(0, 100%, 83%);
+    border-radius: 100%;
+    background-image: linear-gradient(60deg , 
+     hsl(7, 99%, 34%), 
+     hsl(0, 90%, 19%) );
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    grid-column: 2;
+    cursor: pointer;
+    text-align: center;
+}
+
+.morb__peso:hover{
+    box-shadow: 5px 5px 10px 10px rgb(223, 50, 38);
+    text-shadow: 10px 10px 20px rgb(110, 0, 0);
+}
+
+
+ .morbpeso__container{
+    display: grid;
+    padding: 10px;
+    margin-top: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    background-color: rgba(177, 54, 54, 0.822);
+    grid-column: 1 / 3;
+    border-radius: 30px;
+    justify-items: center;
+    height: 270px;
+    gap: 5px;
+ }
+ .p__morbpeso{
+    font-size: 15px;
+    font-family: "Barlow", sans-serif;
+    letter-spacing: 1px;
+    grid-column: 1;
+    margin-left: 30px;
+    margin-top: 0;
+    margin-right: 30px;
+    margin-bottom: 0;
+  
+ }
+ .grid__morbpeso{
+    display: grid;
+    grid-column: 1;
+ }
+ .li__morbpeso{
+    list-style: auto;
+    padding: 5px;
+    margin-left: 40px;
+    font-family: "Exo 2", sans-serif;
+    grid-column: 1;
+    margin-top: 0;
+    padding-top: 0;
+    color: aliceblue;
+ }
+ .h2__morbpeso{
+   font-family: "Exo 2", sans-serif;
+    letter-spacing: 2px;
+    color: rgb(88, 1, 1);
+    display: grid;
+    grid-column: 1 / 3;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+
+ }

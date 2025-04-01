@@ -1,0 +1,59 @@
+.foot__conteiner{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 0;
+    margin-top: 10px;
+}
+.texto__footer{
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+.foot__logo{
+    background-color: rgb(243, 240, 228);
+    border-radius: 40px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+a{
+    color: aliceblue;
+    background-color: rgb(3, 118, 212);
+    border-radius: 5px;
+    padding: 2px;
+    margin-right: 40px;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+a::before{
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 0;
+    border-radius: 5px;
+    text-decoration: none;
+    height: 100%;
+    background-color: rgb(112, 191, 255);
+    transition: all 0.5s ease;
+    
+}
+a:hover::before{
+    width: 100%;
+    content: "Git";
+    text-align: center;
+
+}
+.par__footer{
+    color: #000;
+    margin: 0;
+
+    padding: 0;
+
+}

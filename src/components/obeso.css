@@ -68,5 +68,23 @@
     text-align: center;
     margin-bottom: 0;
     margin-top: 0;
-
  }
+
+
+ @media all and ( max-width: 375px) {
+   .obesopeso__container{
+      grid-template-columns: auto;
+      height: 100%;
+      margin-left: 10px;
+      padding-left: 34px;
+   }
+   .grid__obesopeso {
+      grid-column: 1;
+   }
+   .obeso__peso{
+      grid-column: 1;
+   }
+      .h2__obesopeso{
+         grid-column: 1;
+      }
+}

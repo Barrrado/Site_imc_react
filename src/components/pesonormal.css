@@ -69,3 +69,20 @@
     margin-top: 0;
 
  }
+ @media all and ( max-width: 375px) {
+   .normalpeso__container{
+      grid-template-columns: auto;
+      height: 100%;
+      margin-left: 10px;
+      padding-left: 34px;
+   }
+   .grid__normalpeso {
+      grid-column: 1;
+   }
+   .normal__peso{
+      grid-column: 1;
+   }
+      .h2__normalpeso{
+         grid-column: 1;
+      }
+}

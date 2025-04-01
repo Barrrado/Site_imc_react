@@ -70,3 +70,20 @@
     margin-top: 0;
 
  }
+ @media all and ( max-width: 375px) {
+   .morbpeso__container{
+      grid-template-columns: auto;
+      height: 100%;
+      margin-left: 10px;
+      padding-left: 34px;
+   }
+   .grid__morbpeso {
+      grid-column: 1;
+   }
+   .morb__peso{
+      grid-column: 1;
+   }
+      .h2__morbpeso{
+         grid-column: 1;
+      }
+}

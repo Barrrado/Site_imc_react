@@ -175,3 +175,19 @@ form{
     max-height: 500px; /* Ajuste conforme necessário */
  
   }
+  @media all and (max-width: 370px) {
+
+    .imc-result.show {
+    max-height: 550px;
+    height: 100%;
+    }
+    .grid__imc {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        height: 100%;
+        margin-left: 10px;
+        padding-left:34px ;
+  }
+}
+  

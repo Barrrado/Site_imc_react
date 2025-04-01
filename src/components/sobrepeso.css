@@ -69,3 +69,20 @@
     margin-top: 0;
 
  }
+ @media all and ( max-width: 375px) {
+   .sobrepeso__container{
+      grid-template-columns: auto;
+      height: 100%;
+      margin-left: 10px;
+      padding-left: 34px;
+   }
+   .grid__sobrepeso {
+      grid-column: 1;
+   }
+   .sobre__peso{
+      grid-column: 1;
+   }
+      .h2__sobrepeso{
+         grid-column: 1;
+      }
+}

@@ -72,3 +72,20 @@
     margin-top: 0;
 
  }
+ @media all and ( max-width: 375px) {
+   .abaixopeso__container{
+      grid-template-columns: auto;
+      height: 100%;
+      margin-left: 10px;
+      padding-left: 34px;
+   }
+   .grid__abaixopeso {
+      grid-column: 1;
+   }
+   .abaixo__peso{
+      grid-column: 1;
+   }
+      .h2__abaixopeso{
+         grid-column: 1;
+      }
+}
